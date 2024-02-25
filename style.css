@@ -1,0 +1,106 @@
+/* Write some CSS below */
+
+.body{
+    text-align: center;
+}
+
+
+.bouton{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.parfum{
+    border: 1px solid black;
+    margin: 50px;
+    padding: 20px 10px;
+}
+
+
+.parfum-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ParfumName{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.EauDeParfum{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.footer{
+    background-color: black;
+}
+
+
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+
+.navigation{
+    margin: 30px 0;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+
+}
+
+
+.bottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
